@@ -1,0 +1,76 @@
+.header__logo {
+	width: 100px;
+	margin: 10px 20px 0px 20px;
+}
+
+.header {
+	background-color: #131921;
+	display: flex;
+	align-items: center;
+}
+
+.search___group {
+	display: flex;
+	flex: 1;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.search___group button {
+	background-color: #febd69;
+	border: none;
+	padding: 0em 0.5em;
+	color: #333333;
+}
+
+.search___group input {
+	height: 12px;
+	padding: 0.8em;
+	border: none;
+	width: 100%;
+}
+
+.search___group input:focus,
+.search___group input:active {
+	outline: none;
+	border: none;
+}
+
+.header__location {
+	display: flex;
+	color: white;
+	margin-right: 10px;
+}
+.header__location p {
+	margin: 0px;
+	line-height: 1.1;
+	font-size: 0.9rem;
+}
+
+.header__location svg {
+	fill: white;
+	color: white;
+	margin: auto 5px 0px auto;
+}
+
+.header__links {
+	display: flex;
+	color: white;
+	margin-right: 1.2rem;
+}
+
+.header__links p {
+	line-height: 1.1;
+}
+.cart__icon {
+	color: white;
+	margin-right: 1.2rem;
+}
+
+.cart__icon svg {
+	fill: white;
+	color: white;
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-right: 0.5rem;
+}

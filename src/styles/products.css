@@ -1,0 +1,27 @@
+.products {
+	background-color: white;
+	padding: 1rem 1rem;
+}
+.product__container {
+	align-items: center;
+	text-align: center;
+}
+
+.product__rating {
+	display: flex;
+	color: #e8bd0d;
+}
+
+.product__container img {
+	max-height: 200px;
+	width: 100%;
+	object-fit: contain;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.product__container button {
+	border: 1px solid black;
+	color: black;
+	background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
